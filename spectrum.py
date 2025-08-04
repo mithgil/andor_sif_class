@@ -1,5 +1,10 @@
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib as mpl
+mpl.rcParams['font.family'] = 'sans-serif'
+mpl.rcParams['font.sans-serif'] = ['Arial']
+
 from typing import Optional
 import sif_parser
 
