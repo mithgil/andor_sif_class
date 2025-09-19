@@ -7,7 +7,7 @@ Based on [`sif_parser`](https://github.com/fujiisoup/sif_parser), and build a si
 
 Download the script and put `spectrum.py` in the root directory of your python project
 
-```
+```python
 import os 
 
 path = '/home/username/path/to/your_sifs'
@@ -21,7 +21,7 @@ spec_list = [spe.Spectrum.read_sif(sif_files[i]) for i in range(len(sif_files))]
 ```
 this will print useful metadata as 
 
-```
+```python
 
 Key                  Value                                                                               
           SifVersion                                                                                65567
