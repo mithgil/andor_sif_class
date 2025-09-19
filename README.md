@@ -3,6 +3,23 @@ An easy, clear python class for sif reading and data visualization
 
 Based on [`sif_parser`](https://github.com/fujiisoup/sif_parser), and build a simple python class for better enjoyment in data visualization.
 
+## Class Design
+
+This class contains memebers:
+```python
+        filename: str,
+        data: np.ndarray,
+        wavelengths: np.ndarray,
+        timestamps: np.ndarray,
+        info: Optional[dict] 
+```
+and `raman` member is a derived one, which can be obtained by using method `convert_xaxis_unit()`
+```
+spec_list[0].convert_xaxis_unit() # this will fill raman member of a numpy array
+spec_list[0].raman
+```
+
+
 ## Usage
 
 Download the script and put `spectrum.py` in the root directory of your python project
