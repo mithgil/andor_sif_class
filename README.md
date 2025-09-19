@@ -1,5 +1,5 @@
-# andor_sif_class: An easy, clear python class for sif reading and data visualization 
-
+# andorSif class
+An easy, clear python class for sif reading and data visualization 
 
 Based on [`sif_parser`](https://github.com/fujiisoup/sif_parser), and build a simple python class for better enjoyment in data visualization.
 
